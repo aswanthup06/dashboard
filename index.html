@@ -11,44 +11,46 @@
     <title>Dashboard</title>
   </head>
   <body>
-    <head>
-      <div class="head-section">
-        <div class="input-section">
-          <input
-            class="head-input"
-            placeholder="Search by Member & Telephone Extension"
-            type="text"
-          />
-
-          <div class="call-btn">
-            <i class="ri-phone-line"></i>
-          </div>
+    <!-- Header -->
+    <header class="head-section">
+      <div class="input-section">
+        <input
+          class="head-input"
+          placeholder="Search by Member & Telephone Extension"
+          type="text"
+        />
+        <div class="call-btn">
+          <i class="ri-phone-line"></i>
         </div>
+      </div>
 
-        <div class="head-right">
-          <button class="button-one">Kaizen - Wall of Fame</button>
+      <div class="head-right">
+        <button class="button-one">Kaizen - Wall of Fame</button>
 
-          <button class="button-two">
-            <i class="ri-customer-service-2-line"></i> IT Help Desk
-          </button>
+        <button class="button-two">
+          <i class="ri-customer-service-2-line"></i> IT Help Desk
+        </button>
 
+        <div class="notification-sec">
           <button class="button-three">
             <i class="ri-notification-3-line"></i>
+            <div class="notification">3</div>
           </button>
+        </div>
 
-          <div class="profile">
-            <div class="profil-img">RK</div>
+        <div class="profile">
+          <div class="profil-img">RK</div>
 
-            <div>
-              <h4>R.Rajesh Kumar</h4>
-              <h6>Project Manager</h6>
-            </div>
+          <div>
+            <h4>R.Rajesh Kumar</h4>
+            <h6>Project Manager</h6>
           </div>
         </div>
       </div>
-    </head>
+    </header>
 
     <div class="main-section">
+      <!-- Sidebar -->
       <aside>
         <div class="side-box side-box-active">
           <i class="ri-home-6-fill"></i>
@@ -71,9 +73,11 @@
         </div>
       </aside>
 
+      <!-- Main content -->
       <main>
         <div class="content-section">
-          <div class="top-section">
+          <!-- Top section -->
+          <section class="top-section">
             <h4>Welcome back, Rajesh kumar!</h4>
 
             <div class="top-boxes">
@@ -112,24 +116,23 @@
                 <div>Email Login</div>
               </div>
             </div>
-          </div>
+          </section>
 
-          <div class="section-two">
+          <!-- Two-row grid: Company News | Leadership Message | Ongoing Trainings -->
+          <section class="section-two">
             <div>
               <h3 class="content-title">Company News</h3>
 
               <div class="section-box-first">
                 <img
                   class="section-box-first-img"
-                  src="https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?q=80&w=1074&auto=format&fit=crop"
                   alt=""
                 />
                 <div class="section-box-data">
-                  <h4>
-                    Vivamus consectetur orci turpis posuere nisl faucibus at.
-                  </h4>
+                  <h4>Vivamus consectetur orci turpis posuere nisl faucibus at.</h4>
                   <p class="paragraph">
-                    Duis dignissim sapien nunc, sed rutrum nisl suscipit eget..
+                    Duis dignissim sapien nunc, sed rutrum nisl suscipit eget.
                   </p>
                   <button class="content-btn">READ MORE</button>
                 </div>
@@ -144,20 +147,16 @@
                   <div class="section-profile">
                     <img
                       class="section-profile-img"
-                      src="https://images.unsplash.com/photo-1742119971773-57e0131095b0?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      src="https://images.unsplash.com/photo-1742119971773-57e0131095b0?q=80&w=880&auto=format&fit=crop"
                       alt=""
                     />
-
                     <p class="paragraph-two">
-                      Praesent dictum felis sapien, nec laoreet dolor malesuada
-                      et. Nullam elementum massa non augue ultrices, ac
-                      sollicitudin mi
+                      Praesent dictum felis sapien, nec laoreet dolor malesuada et. Nullam elementum massa non augue ultrices, ac sollicitudin mi
                     </p>
                   </div>
 
                   <p class="paragraph-two">
-                    Sed ut consectetur erat. Suspendisse interdum
-                    laoreet sagittis.
+                    Sed ut consectetur erat. Suspendisse interdum laoreet sagittis.
                   </p>
 
                   <div>
@@ -173,27 +172,90 @@
                 <h3 class="content-title">Ongoing Trainings</h3>
                 <button class="content-btn">VIEW ALL</button>
               </div>
-              <div class="section-box">hdhsjdhsj</div>
-            </div>
-          </div>
 
-          <div class="section-two">
+              <div class="section-box">
+                <div class="training-data">
+                  <div class="box-date">
+                    <h4>01</h4>
+                    <h4>Jan</h4>
+                  </div>
+
+                  <div class="data-box">
+                    <h4>Leadership Skills for Managers and Productivity</h4>
+                    <h5 class="date-train">
+                      <span class="date">
+                        <i class="ri-calendar-check-line"></i>
+                      </span>
+                      10:00 PM - 12:00 PM
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="training-data">
+                  <div class="box-date">
+                    <h4>15</h4>
+                    <h4>Dec</h4>
+                  </div>
+
+                  <div class="data-box">
+                    <h4>Leadership Skills for Managers and Productivity</h4>
+                    <h5 class="date-train">
+                      <span class="date">
+                        <i class="ri-calendar-check-line"></i>
+                      </span>
+                      10:00 PM - 12:00 PM
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="training-data">
+                  <div class="box-date">
+                    <h4>21</h4>
+                    <h4>Nov</h4>
+                  </div>
+
+                  <div class="data-box">
+                    <h4>Leadership Skills for Managers and Productivity</h4>
+                    <h5 class="date-train">
+                      <span class="date">
+                        <i class="ri-calendar-check-line"></i>
+                      </span>
+                      10:00 PM - 12:00 PM
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Photo Gallery | Welcome Aboard | Today's Birthday -->
+          <section class="section-two">
             <div>
               <div class="content-title-section">
                 <h3 class="content-title">Photo Gallery</h3>
                 <button class="content-btn">VIEW ALL</button>
               </div>
 
-<div class="section-box">
-  <div class="section-box-images">
-    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Office" />
-    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80" alt="Office" />
-    <img src="https://images.unsplash.com/photo-1557804483-ef3ae78eca57?auto=format&fit=crop&w=900&q=80" alt="Office" />
-    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Office" />
-  </div>
-</div>
-
-
+              <div class="second-section-box">
+                <div class="section-box-images">
+                  <img
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                    alt="Office"
+                  />
+                  <img
+                    src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80"
+                    alt="Office"
+                  />
+                  <img
+                    src="https://images.unsplash.com/photo-1557804483-ef3ae78eca57?auto=format&fit=crop&w=900&q=80"
+                    alt="Office"
+                  />
+                  <img
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                    alt="Office"
+                  />
+                </div>
+              </div>
             </div>
 
             <div>
@@ -202,7 +264,43 @@
                 <button class="content-btn">VIEW ALL</button>
               </div>
 
-              <div class="section-box">hdhsjdhsj</div>
+              <div class="second-section-box">
+                <div class="member-profile-section">
+                  <img
+                    class="member-profile-img"
+                    src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?q=80&w=880&auto=format&fit=crop"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="member-name">Ms. Aria Thompson</h4>
+                    <h5 class="member-domain">Chief Technology Officer</h5>
+                    <h5>
+                      <span class="date">
+                        <i class="ri-calendar-check-line"></i> Joined:
+                      </span>
+                      Monday, March 12, 2023
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="member-profile-section">
+                  <img
+                    class="member-profile-img"
+                    src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=880&auto=format&fit=crop"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="member-name">Mr. Jonathan Reed</h4>
+                    <h5 class="member-domain">Head of Operations</h5>
+                    <h5>
+                      <span class="date">
+                        <i class="ri-calendar-check-line"></i> Joined:
+                      </span>
+                      Thursday, July 7, 2022
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div>
@@ -211,10 +309,48 @@
                 <button class="content-btn">VIEW ALL</button>
               </div>
 
-              <div class="section-box">hdhsjdhsj</div>
+              <div class="second-section-box">
+                <div class="member-profile-section">
+                  <img
+                    class="member-profile-img"
+                    src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?q=80&w=880&auto=format&fit=crop"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="member-name">Mr. Ethan Williams</h4>
+                    <h5 class="member-domain">Chief Financial Officer</h5>
+                    <h5>
+                      <span class="date">
+                        <i class="ri-calendar-check-line"></i>
+                      </span>
+                      Friday, January 10, 2020
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="member-profile-section">
+                  <img
+                    class="member-profile-img"
+                    src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=880&auto=format&fit=crop"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="member-name">Ms. Sophia Martinez</h4>
+                    <h5 class="member-domain">Head of Human Resources</h5>
+                    <h5>
+                      <span class="date">
+                        <i class="ri-calendar-check-line"></i>
+                      </span>
+                      Wednesday, August 4, 2021
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
+          </section>
         </div>
+
+        <!-- Footer -->
         <footer>
           <h5 class="footer-text">
             Copyright @ 2025 Triveni Trrbine Ltd. All Rights Reserved
