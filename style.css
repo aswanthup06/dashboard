@@ -284,6 +284,26 @@ main {
   padding: 16px;
   margin-top: 14px;
 }
+
+.section-box-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;     /* ensures equal height rows */
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.section-box-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+
+
 .content-title-section {
   display: flex;
   justify-content: space-between;
